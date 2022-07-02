@@ -14,7 +14,7 @@ let tempUrl = {};
 
 async function startBrowser(){
     if(!browser){
-        browser = await puppeteer.launch({ headless: false });
+        browser = await puppeteer.launch({ args: ['--no-sandbox'] });
         browser.on('disconnected', () => {
             browser = null
         })
