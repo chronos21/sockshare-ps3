@@ -21,6 +21,14 @@ async function startBrowser(){
     }
 }
 
+function encodeUrl(url = ''){
+    return Buffer.from(url).toString('base64')
+}
+
+function decodeUrl(url = ''){
+    return Buffer.from(url, 'base64').toString('ascii')
+}
+
 async function getDetails(url){
     try {
         await startBrowser()
@@ -28,7 +36,7 @@ async function getDetails(url){
         await page.setUserAgent('Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0')
         await page.goto(url, {waitUntil: 'load', timeout: 0});
         await page.waitForSelector('#maincontent')
-        const data = await page.evaluate(() => {
+        let data = await page.evaluate(() => {
             const els = document.querySelectorAll('#details .episode');
             let arr = []
             if(els.length === 0){
@@ -37,17 +45,23 @@ async function getDetails(url){
 
             els.forEach(el => {
                 let title = 'Epiode ' + el.innerText
-                let url = el.href
-                arr.push({title, url})
+                let id = el.href
+                arr.push({title, id})
             })
 
             return arr
         })
         if(!data){
-            return [{
-                url, title: 'Full Movie'
+            data = [{
+                id: url, title: 'Full Movie'
             }]
         }
+
+        data = data.map(item => ({
+            ...item, 
+            id: encodeUrl(item.id)
+        }))
+        
         await page.close()
         return data
     } catch (err) {
@@ -81,24 +95,28 @@ async function getVideoUrl(url){
     }
 }
 
-async function search(keyword){
+async function getSearch(keyword){
     try {
         await startBrowser()
         const page = await browser.newPage()
         await page.goto(MAIN_URL + '/search-movies/' + keyword.replaceAll(' ', '+') + '.html')
         await page.waitForSelector('#maincontent')
-        const data = await page.evaluate(() => {
+        let data = await page.evaluate(() => {
             const els = document.querySelectorAll('.listcontent .item');
             let arr = []
             els.forEach(el => {
                 let img = el.querySelector('.thumb img').getAttribute('src')
                 let title = el.querySelector('.title').innerText
-                let url = el.querySelector('.title').href
-                arr.push({img, title, url})
+                let id = el.querySelector('.title').href
+                arr.push({img, title, id})
             })
 
             return arr
         })
+        data = data.map(item => ({
+            ...item, 
+            id: encodeUrl(item.id)
+        }))
         await page.close()
 
         return data
@@ -109,24 +127,30 @@ async function search(keyword){
     }
 }
 
-async function home(){
+async function getHome(){
     try {
         await startBrowser()
         const page = await browser.newPage()
         await page.goto(MAIN_URL)
         await page.waitForSelector('#maincontent')
-        const data = await page.evaluate(() => {
+        let data = await page.evaluate(() => {
             const els = document.querySelectorAll('.listcontent .item');
             let arr = []
             els.forEach(el => {
                 let img = el.querySelector('.thumb img').getAttribute('src')
                 let title = el.querySelector('.title').innerText
-                let url = el.querySelector('.title').href
-                arr.push({img, title, url})
+                let id = el.querySelector('.title').href
+                arr.push({img, title, id})
             })
 
             return arr
         })
+
+        data = data.map(item => ({
+            ...item, 
+            id: encodeUrl(item.id)
+        }))
+        
         await page.close()
         return data
     } catch (err) {
@@ -139,24 +163,24 @@ async function home(){
 
 app.get('/search', async (req, res) => {
     let keyword = req.query.keyword
-    const data = await search(keyword)
+    const data = await getSearch(keyword)
     res.send(JSON.stringify(data))
 })
 
 
-app.get('/details', async (req, res) => {
-    let id = req.query.id
+app.get('/details/:id', async (req, res) => {
+    let id = decodeUrl(req.params.id)
     const data = await getDetails(id)
-    res.json(data)
+    res.send(JSON.stringify(data))
 })
 
-app.get('/home', async (req, res) => {
-    const data = await home()
-    res.json(data)
+app.get('/', async (req, res) => {
+    const data = await getHome()
+    res.send(JSON.stringify(data))
 })
 
-app.get('/stream', async (req, res) => {
-    const id = req.query.id
+app.get('/stream/:id', async (req, res) => {
+    const id = decodeUrl(req.params.id) 
     const url = tempUrl[id] || await getVideoUrl(id)
     if(!url){
         return res.send('ERROR_NO_URL').end()
