@@ -1,5 +1,88 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id-id/mncvision.id.epg.xml.gz" refresh="3600"
 
+********************** LIVE SPORTS EVENTS **********************
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 01
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106639
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 02
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106640
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 03
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106641
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 04
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106642
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 05
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106643
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 06
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106644
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 07
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106645
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 08
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106646
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 09
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106647
+
+#EXTINF:-1 group-title="Serie A" tvg-logo="https://play-lh.googleusercontent.com/CT3rvx6321K2XLYt8Q9QeIeXUFuWsp1DxDtzyuSSoZEhhYxvD5lyIR7RIQOz0EXmXXc",LIVE 10
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/106648
+
+
+
+#EXTINF:-1 group-title="Liga Inggris" tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png",LIVE EPL 0
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/94496
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png" group-title="Liga Inggris", LIVE EPL
+#https://aipitv.my.id/vod/affintro.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png" group-title="Liga Inggris", LIVE EPL
+#https://aipitv.my.id/vod/affintro.mp4
+
+#EXTINF:-1 group-title="Liga Inggris" tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png",LIVE EPL 3
+http://clientsportals.com:80/d4Je5xwD/yadTXB63/92904
+
+#EXTINF:-1 group-title="Liga Inggris" tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png",LIVE EPL 4
+http://txm.flysat.live:2089/152029294836935/152094543911426/254625
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png" group-title="Liga Inggris", LIVE EPL
+#https://aipitv.my.id/vod/affintro.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png" group-title="Liga Inggris", LIVE EPL
+#https://aipitv.my.id/vod/affintro.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png" group-title="Liga Inggris", LIVE EPL
+#https://aipitv.my.id/vod/affintro.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png" group-title="Liga Inggris", LIVE EPL
+#https://aipitv.my.id/vod/affintro.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/ligainggris.png" group-title="Liga Inggris", LIVE EPL
+#https://aipitv.my.id/vod/affintro.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/affcup.png" group-title="Liga Indo & AFF", LIVE AFF
+https://aipitv.my.id/vod/affintro.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/affcup.png" group-title="Liga Indo & AFF", LIVE AFF
+https://aipitv.my.id/vod/affintro.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/briliga1.png" group-title="Liga Indo & AFF", LIVE BRI
+https://aipitv.my.id/vod/liga1intro.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/live/briliga1.png" group-title="Liga Indo & AFF", LIVE BRI
+https://aipitv.my.id/vod/liga1intro.mp4
+
+
+
+
 ********************* NASIONAL *********************
 
 #EXTINF:-1 tvg-id="RCTI.Id" tvg-logo="https://aipitv.my.id/tvlogo/rcti.png" group-title="Nasional",RCTI
@@ -70,7 +153,8 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 
 
 #EXTINF:-1 group-title="Nasional" tvg-logo="https://aipitv.my.id/tvlogo/sctv.png",SCTV
-http://nonton.wap.sh/id/009.m3u8
+http://mpwtv.my.id/vidioye/204-sctv.m3u8
+#http://nonton.wap.sh/id/009.m3u8
 #https://aipitv.my.id/vod/tvopening.mp4
 
 #EXTINF:-1 group-title="Nasional" tvg-logo="https://aipitv.my.id/tvlogo/indosiar.png",Indosiar
@@ -438,13 +522,13 @@ http://clientsportals.com:80/d4Je5xwD/yadTXB63/41396
 http://clientsportals.com:80/d4Je5xwD/yadTXB63/92904
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://aipitv.my.id/tvlogo/beinsports.png",EPL Bein Sports 1
-http://clientsportals.com:80/d4Je5xwD/yadTXB63/94450
+http://txm.flysat.live:2089/152029294836935/152094543911426/254626
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://aipitv.my.id/tvlogo/beinsports.png",EPL Bein Sports 2
-http://clientsportals.com:80/d4Je5xwD/yadTXB63/94446
+http://txm.flysat.live:2089/152029294836935/152094543911426/254623
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://aipitv.my.id/tvlogo/beinsports.png",EPL Bein Sports 3
-http://clientsportals.com:80/d4Je5xwD/yadTXB63/94442
+http://txm.flysat.live:2089/152029294836935/152094543911426/254620
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://aipitv.my.id/tvlogo/elevensports.png",EPL Eleven Sports
 http://clientsportals.com:80/d4Je5xwD/yadTXB63/69002
@@ -544,8 +628,11 @@ https://liveaneviadev.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd
 #EXTINF:-1 group-title="Sports" tvg-logo="https://aipitv.my.id/tvlogo/spotv2.png" ,SPOTV 2
 https://liveaneviadev.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd
 
+#EXTINF:-1 group-title="Sports" tvg-logo="https://aipitv.my.id/tvlogo/beinnba.png",Bein NBA
+http://txm.flysat.live:2089/152029294836935/152094543911426/254610
+
 #EXTINF:-1 group-title="Sports" tvg-logo="https://aipitv.my.id/tvlogo/useesports.png",Usee Sport
-https://miraeindaeyo.masuk.id/empede/masuk.m3u8?token2=burgerkingkong&channel=useesport&token=5dc9378e9db86735ee72bd8450c0e1af4b64af99bfca545a5f2d0f3105fbd245
+#https://miraeindaeyo.masuk.id/empede/masuk.m3u8?token2=burgerkingkong&channel=useesport&token=5dc9378e9db86735ee72bd8450c0e1af4b64af99bfca545a5f2d0f3105fbd245
 
 
 ********************* MUSIC *********************
