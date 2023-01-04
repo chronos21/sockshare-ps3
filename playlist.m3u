@@ -1,3 +1,31 @@
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id-id/mncvision.id.epg.xml.gz" refresh="3600"
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="PERBARUI APLIKASI ANDA",versi baru tersedia
+https://aipitv.my.id/vod/update.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="DISCLAIMER & INFO",DISCLAIMER
+https://aipitv.my.id/vod/disclaimer.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="DISCLAIMER & INFO",FAQ
+https://aipitv.my.id/vod/faq.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="DISCLAIMER & INFO",ORANG BAIK
+https://aipitv.my.id/vod/orangbaik.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="DISCLAIMER & INFO",DONASI
+https://aipitv.my.id/vod/donasi.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="DISCLAIMER & INFO",TENTANG
+https://aipitv.my.id/vod/about350.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="Liga Indo & AFF",DONASI
+#https://aipitv.my.id/vod/donasi.mp4
+
+#EXTINF:-1 tvg-logo="https://aipitv.my.id/tvlogo/defaultlogo.png" group-title="Liga Inggris",DONASI
+#https://aipitv.my.id/vod/donasi.mp4
+
+*************************************************************
+
 ********************* NASIONAL *********************
 
 #EXTINF:-1 tvg-id="RCTI.Id" tvg-logo="https://aipitv.my.id/tvlogo/rcti.png" group-title="Nasional",RCTI
